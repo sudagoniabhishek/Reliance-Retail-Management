@@ -18,6 +18,8 @@
 </head>
 <body>
 
+<form action="insertForm">
+
 <header style="color:white">
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -29,7 +31,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Customer</a>
+          <a class="nav-link active" aria-current="page"  href= " table" >Customer</a>
         </li>
       </ul>
  
@@ -87,7 +89,7 @@
 </div>
 
 
-
+</form>
 
 </body>
 </html>

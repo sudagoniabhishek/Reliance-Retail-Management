@@ -24,6 +24,10 @@ public class CustomerDao {
 	private static final String customerUpdateQuery="update customer set name=?,email=?,mobile=? where id=?";
 	private static final String customerDeleteQuery="delete from customer  where id=?";
 	
+	
+
+	
+
 
 	
 	public static void deleteCustomer(int id) {
@@ -159,7 +163,6 @@ public class CustomerDao {
 			}
 		}
 		return c;
-		
 		
 		
 		
